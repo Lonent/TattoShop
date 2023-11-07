@@ -1,0 +1,340 @@
+body {
+	background-color: lig;
+
+}
+
+/* Style the scrollbar track */
+body::-webkit-scrollbar-track {
+	background-color: #f1f1f1;
+}
+
+/* Style the scrollbar thumb */
+body::-webkit-scrollbar-thumb {
+	background-color: #888;
+	border-radius: 5px;
+}
+
+/* Style the scrollbar on hover */
+body::-webkit-scrollbar-thumb:hover {
+	background-color: #555;
+}
+
+/* Set the width of the scrollbar */
+body::-webkit-scrollbar {
+	width: 10px;
+}
+
+
+
+
+
+/*Header info*/
+header {
+	margin: 0 auto;
+	padding-top: 1em;
+	border-bottom: 1px solid;
+}
+
+
+.account-category {
+	position: absolute;
+	display: none;
+}
+
+
+.shop-name {
+	font-size: 50px;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+}
+
+.shop-name:hover {
+
+	color: black;
+}
+
+.site-nav {
+	font-size: 45px;
+	color: grey;
+	display:flex;
+}
+
+.site-nav-category {
+	padding-left: 1em;
+}
+
+a.site-nav-category {
+	color: grey;
+	text-decoration: none;
+}
+
+a.site-nav-category:hover {
+	transition: color 0.7s;
+	color: black;
+	text-decoration: none;
+}
+
+/*Shop info*/
+.shop-nav-category {
+	font-size: 30px;
+	text-align: center;
+
+}
+
+.shop-category-button {
+	text-decoration: none;
+	color: black;
+}
+
+.shop-category-button:hover {
+	transition: color 0.3s;
+	color: grey;
+
+}
+
+.prod-scroll-box {
+	overflow-y: auto;
+
+}
+
+
+
+.prod-scroll-box::-webkit-scrollbar-track {
+	background-color: #f1f1f1;
+}
+
+/* Style the scrollbar thumb */
+.prod-scroll-box::-webkit-scrollbar-thumb {
+	background-color: #888;
+	border-radius: 5px;
+}
+
+/* Style the scrollbar on hover */
+.prod-scroll-box::-webkit-scrollbar-thumb:hover {
+	background-color: #555;
+}
+
+/* Set the width of the scrollbar */
+.prod-scroll-box::-webkit-scrollbar {
+	width: 5px;
+}
+
+
+.price {
+	font-size: 16px;
+}
+
+.add-cart-button {
+	background-color: black;
+	border-radius: 7px;
+	color: white;
+	margin-bottom: 15px;
+	font-size: 16px;
+	transition: 0.2s;
+}
+.add-cart-button:hover {
+	background-color: #383838;
+	color: white;
+
+
+
+}
+
+.buy-button:hover {
+	background-color: #383838;
+	color: white;
+
+}
+
+.info-button {
+	width: 30px;
+	height: 30px;
+	background-color: black;
+	border-radius: 7px;
+	color: white;
+	margin-bottom: 15px;
+	font-size: 16px;
+	transition: 0.2s linear;
+}
+
+.info-button:hover {
+	background-color: #383838;
+	color: white;
+
+}
+
+
+
+.show-more-link {
+	transition: 0.2s;
+	font-size: 20px;
+}
+
+.show-more-link:hover {
+	font-size: 22px;
+
+}
+
+.sign-btn {
+	height: 50px;
+	background-color: black;
+	color: white;
+	margin-bottom: 15px;
+	font-size: 16px;
+	transition: 0.2s;
+}
+
+.sign-btn:hover {
+	background-color: #383838;
+	color: white;
+
+}
+
+.del-btn {
+	height: 50px;
+	background-color: black;
+	color: white;
+	margin-bottom: 15px;
+	font-size: 16px;
+	transition: 0.2s;
+}
+
+.del-btn:hover {
+	background-color: #383838;
+	color: white;
+
+}
+
+.show-btn {
+	height: 50px;
+	background-color: black;
+	color: white;
+	margin-bottom: 15px;
+	font-size: 16px;
+	transition: 0.2s;
+}
+
+.show-btn:hover {
+	background-color: #383838;
+	color: white;
+
+}
+
+
+.pass-missmatch{
+	color: #ff0000;
+	background-color: #ffc0c0;
+	
+}
+
+.cart-list{
+	height: 30rem;
+}
+
+.cart-list-row{
+	height: 9rem;
+}
+.order-list-row{
+	height: 5rem;
+}
+
+.order-list{
+	height: 30rem;
+}
+
+.cart-name{
+	word-wrap: break-word;
+}
+@media screen and (max-width: 1200px) {
+	.order-list{
+		height: auto;
+	}
+}
+
+
+/*Media settings*/
+@media screen and (max-width: 830px) {
+	.shop-name {
+		font-size: 40px;
+
+	}
+
+	.site-nav {
+		font-size: 38px;
+
+	}
+}
+
+@media screen and (max-width: 685px) {
+	.shop-name {
+		font-size: 35px;
+
+	}
+
+	.site-nav {
+		font-size: 32px;
+	}
+}
+
+@media screen and (max-width: 590px) {
+
+	.shop-name {
+		font-size: 28px;
+
+	}
+	.site-nav {
+		font-size: 25px;
+	}
+
+	.card-text {
+		visibility: hidden;
+		position: absolute;
+	}
+
+}
+
+@media screen and (max-width: 400px) {
+	.shop-name {
+		font-size: 25px;
+
+	}
+	.site-nav {
+		font-size: 25px;
+		display: block ;
+	}
+	header{
+		 display: flex;
+	}
+
+	.cart-list{
+		height: auto;
+	}
+	
+
+
+
+
+
+}
+@media screen and (max-width: 768px) {
+	.cart-image{
+		display: none ;
+	}
+	.order-list-row{
+		height: 7rem;
+	}
+
+	
+
+}
+
+@media screen and (max-width: 315px) {
+	
+	header{
+		 display: block;
+	}
+
+
+
+}

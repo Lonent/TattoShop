@@ -1,0 +1,158 @@
+
+
+/* Style the scrollbar track */
+body::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* Style the scrollbar thumb */
+body::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+/* Style the scrollbar on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* Set the width of the scrollbar */
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+
+
+
+/*Header info*/
+header{
+	height: 4em;
+	margin: 0 auto;
+	padding-top: 1em;
+	border-bottom: 1px solid;
+	display: flex;
+}
+
+
+.admin-name{
+	font-size: 30px; 
+	font-weight: bold;
+	color: black;
+	text-decoration: none;	
+	user-select:none;
+}
+
+.admin-name:hover {
+	color: black;
+}
+
+.dropdown-toggle-no-arrow {
+    background: none;
+	font-size: 1.5rem;
+
+}
+
+.dropdown-toggle-no-arrow:focus {
+    background: black;
+	color: white;
+	transition: background  0.3s;
+	transition: color  0.3s;
+}
+
+a.dropdown-item:focus{
+	background:none;
+	color: black;
+}
+
+
+.dropdown-toggle-no-arrow::after {
+	display: none !important;
+	
+  }
+
+
+  .search-btn{
+	color: white;
+	background-color: black;
+	border-radius:0 10px 10px 0 ;
+  }
+
+
+  .admin-card{
+	height: 10rem;
+  }
+
+  .modular-card
+  {
+	border-color: #888;
+	height: 48%;
+	background-color: black;
+	color: white;
+	font-size: 35px;
+  }
+  .admin-del
+  {
+	border-color: #888;
+	height: 48%;
+	background-color: black;
+	color: white;
+	font-size: 35px;
+  }
+
+  .sign-btn {
+	height: 50px;
+	background-color: black;
+	color: white;
+	margin-bottom: 15px;
+	font-size: 16px;
+	transition: 0.2s;
+}
+/*Media settings*/
+@media screen and (max-width: 830px) {
+.admin-name{
+	font-size: 27px; 
+
+}
+.site-nav{
+	font-size: 38px; 
+
+}
+.admin-card{
+	height: 15rem;
+  }
+}
+@media screen and (max-width: 685px) {
+.admin-name{
+	font-size: 22px; 
+
+}
+.site-nav{
+	font-size: 32px; 
+}
+}
+@media screen and (max-width: 590px) {
+
+header{
+	display: block;
+	height: 5sem;
+}
+
+.card-text{
+	visibility: hidden;
+	position: absolute;
+}
+
+}
+
+@media screen and (max-width: 400px) {
+.admin-name{
+	font-size: 22px; 
+
+}
+.site-nav{
+	font-size: 27px; 
+}
+
+}
+
